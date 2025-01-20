@@ -24,13 +24,13 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        targetSdkVersion 30
+        targetSdkVersion 34
         minSdkVersion 23
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
